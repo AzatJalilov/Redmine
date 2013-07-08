@@ -26,6 +26,8 @@ GEM
     activerecord-jdbcpostgresql-adapter (1.2.9)
       activerecord-jdbc-adapter (~> 1.2.9)
       jdbc-postgres (>= 9.1, < 9.3)
+    activerecord-postgresql-adapter (0.0.1)
+      pg
     activeresource (3.2.13)
       activemodel (= 3.2.13)
       activesupport (= 3.2.13)
@@ -131,6 +133,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-jdbc-adapter (= 1.2.5)
   activerecord-jdbcpostgresql-adapter
+  activerecord-postgresql-adapter
   builder (= 3.0.0)
   capybara (~> 2.0.0)
   coderay (~> 1.0.6)
