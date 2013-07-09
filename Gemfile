@@ -9,6 +9,7 @@ gem "builder", "3.0.0"
 gem "pg", ">=0.11.0"
 gem "activerecord-jdbcpostgresql-adapter"
 gem "activerecord-postgresql-adapter"
+gem "taps"
 
 
 # Optional gem for LDAP authentication
